@@ -17,7 +17,7 @@ class ScoutRepository //Medlemslista
             DateOfBirth = birthdate
         };
         _scouts.Add(scout);
-        return true;
+        return false;
     }
 
     public void AddActivity(Activity activity)
