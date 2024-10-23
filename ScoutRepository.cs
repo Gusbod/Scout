@@ -33,6 +33,7 @@ class ScoutRepository //Medlemslista
 
     public Activity GetActivityById(int activityID)
     {
+        //Get activity id
         return _activities[activityID];
     }
 
